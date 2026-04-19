@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 const express = require('express');
 const axios   = require('axios');
 const flows   = require('./flows/menu.json');
@@ -14,6 +14,8 @@ app.use((req, res, next) => {
   next();
 });
 
+console.log('PAGE_ACCESS_TOKEN présent:', !!process.env.PAGE_ACCESS_TOKEN);
+console.log('VERIFY_TOKEN présent:', !!process.env.VERIFY_TOKEN);
 
 // Vérification du webhook Meta
 app.get('/webhook', (req, res) => {
