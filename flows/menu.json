@@ -1,0 +1,114 @@
+{
+  "accueil": {
+    "message": "Bonjour 👋\nBienvenue sur la Page de Spentana Academy\nEn quoi puis-je vous aider ? \nVeuillez choisir entre les options suivantes",
+    "options": [
+      { "next": "activite", "label": "🏆 Nos activités" },
+      { "next": "lieu",     "label": "📍 Lieu " },
+      { "next": "contact",  "label": "📲 Contact " },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "activite": {
+    "message": "Spentana propose diverses activités. Choisissez ce qui vous intéresse :",
+    "cards": [
+      {
+        "title": "⚽ Ecole de Foot",
+        "subtitle": "4 à 18 ans • 50.000 Ar/mois",
+        "options": [{ "next": "foot", "label": "En savoir plus" }]
+      },
+      {
+        "title": "🏀 Ecole de Basket",
+        "subtitle": "10 à 18 ans • 50.000 Ar/mois",
+        "options": [{ "next": "basket", "label": "En savoir plus" }]
+      },
+      {
+        "title": "🏊 Ecole de Natation",
+        "subtitle": "A partir de 4 ans • 50.000 Ar/mois",
+        "options": [{ "next": "natation", "label": "En savoir plus" }]
+      },
+      {
+        "title": "🎵 Cours de Musique",
+        "subtitle": "A partir de 6 ans • 50.000 Ar/mois",
+        "options": [{ "next": "musique", "label": "En savoir plus" }]
+      },
+      {
+        "title": "🎓 A propos du Sports-Etudes",
+        "subtitle": "A partir de 6 ans • 200.000 Ar/mois",
+        "options": [{ "next": "sports-etudes", "label": "En savoir plus" }]
+      },
+      {
+        "title": "RETOUR",
+        "subtitle": "Revenir à l'accueil",
+        "options": [{ "next": "accueil", "label": "🏠 Accueil " }]
+      }
+    ]
+  },
+
+  "lieu": {
+    "message": "📍 Complexe Sportif Spentana Academy\n\nBy-Pass Alasora, en face du Domaine\n\n🚗 Accessibl via la Route By-Pass\n🚌 Arrêt Bus: Domaine Alasora\n🅿️ Parking Sécurisé",
+    "options": [
+      { "next": "accueil", "label": "🏠 Accueil" },
+      { "next": "humain",  "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "contact": {
+    "message": "📲 +261 38 06 003 53\n📩 spentanaofficiel@gmail.com",
+    "options": [
+      { "next": "accueil", "label": "🏠 Accueil" }
+    ]
+  },
+
+  "humain": {
+    "message": "👤 Une responsable va prendre en charge votre demande.\nÀ bientôt... ",
+    "options": [
+      { "next": "accueil", "label": "Annulée" }
+    ]
+  },
+
+  "sports-etudes": {
+    "message": "🎓 A propos du Sports-Etudes\n\nA pertir de 6 ans • 200.000 Ar/mois\n\n📄 Frais Généraux: \nDroit: 100.000 Ar \nEcolage: 200.000 Ar/mois \nMaillot: 30.000 Ar \n\nDossier à fournir: \n- 4 Photos d'identité\n- 1 Copie ou bulletin de naissance\n- 1 Certificat de résidence\n\n Etudes:\n- Système Educatif Français \n- Enseignement Général \n\n Hébèrgement à Spentana (Factultatif):\n- Loyer: 100.000 Ar \n- Nourriture: 25.000 Ar/jour",
+    "options": [
+      { "next": "activite", "label": "⬅️ Retour" },
+      { "next": "accueil",  "label": "🏠 Accueil" },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "foot": {
+    "message": "⚽ INSCRIPTION - Ecole de Foot\n\nGarçons et Filles de 4 à 18 ans\nDroit: 30.000 Ar\n Ecolage: 50.000 Ar/mois\n\n 📍 Catégories: U6 U8 U10 U12 U14 U16\n\n📄 Dossier:\n- 4 Photos d'identité\n- 1 Copie ou bulletin de naissance\n- 1 Certificat de résidence\n\nAutre: \n Maillot: 30.000 Ar x2",
+    "options": [
+      { "next": "activite", "label": "⬅️ Retour" },
+      { "next": "accueil",  "label": "🏠 Accueil" },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "basket": {
+    "message": "🏀 INSCRIPTION - Ecole de Basket\n\n Garçons et Filles de 10 à 18 ans\n Droit: 30.000 Ar\n Ecolage: 50.000 Ar/mois\n\n📍 Catégories: U12 U14 U16 U18\n\n📄 Dossier:\n- 4 Photos d'identité\n- 1 Copie ou bulletin de naissance\n- 1 Certificat de résidence\n\nAutre: \n Maillot: 30.000 Ar x2",
+    "options": [
+      { "next": "activite", "label": "⬅️ Retour" },
+      { "next": "accueil",  "label": "🏠 Accueil" },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "natation": {
+    "message": "🏊 INSCRIPTION - Ecole de Natation\n\nA partir de 4 ans • Tous niveaux: Débutant - Intermédiaire - Avancé\n Droit: 30.000 Ar\n Ecolage: 50.000 Ar/mois\n\n🕐 Mercredi à 13h ou Samedi à 13h\n\n📄 Dossier à fournir:\n- 4 Photos d'identité\n- 1 Copie ou bulletin de naissance\n- 1 Certificat de résidence\n\n 📌 Pour +18 ans: 50.000 Ar/mois \n Horaire: Samedi à 10h",
+    "options": [
+      { "next": "activite", "label": "⬅️ Retour" },
+      { "next": "accueil",  "label": "🏠 Accueil " },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "musique": {
+    "message": "🎵 INSCRIPTION - Cours de Musique\n\n Discipline: 🎹 Piano • 🎸 Guitare • 🎤 Chant\n\n A partir de 6 ans\n Droit: 30.000 Ar\n Ecolage: 50.000 Ar/mois\n\n🕐 Horaire: Samedi à 08h30\n\n📄 Dossier à fournir:\n- 4 Photos d'identité\n- 1 Copie ou bulletin de naissance\n- 1 Certificat de résidence",
+    "options": [
+      { "next": "activite", "label": "⬅️ Retour" },
+      { "next": "accueil",  "label": "🏠 Accueil" },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  }
+}
