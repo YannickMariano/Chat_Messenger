@@ -150,4 +150,5 @@ function chunkArray(arr, size) {
   return result;
 }
 
-app.listen(3000, () => console.log('✅ Bot démarré sur le port 3000'));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`✅ Bot démarré sur le port ${PORT}`));
