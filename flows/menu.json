@@ -46,7 +46,7 @@
   },
 
   "lieu": {
-    "message": "📍 Complexe Sportif Spentana Academy\n\nBy-Pass Alasora, en face du Domaine\n\n🚗 Accessibl via la Route By-Pass\n🚌 Arrêt Bus: Domaine Alasora\n🅿️ Parking Sécurisé",
+    "message": "📍 Complexe Sportif Spentana Academy\n\nBy-Pass Alasora, en face du Domaine\n\n🚗 Accessibl via la Route By-Pass\n🚌 Arrêt Bus: Domaine Alasora\n🅿️ Parking",
     "options": [
       { "next": "accueil", "label": "🏠 Accueil" },
       { "next": "humain",  "label": "💬 Parler à quelqu'un" }
