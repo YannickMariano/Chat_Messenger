@@ -1,6 +1,6 @@
 {
   "accueil": {
-    "message": "Bonjour 👋\nBienvenue sur la Page de Spentana Academy\nEn quoi puis-je vous aider ? \nVeuillez choisir entre les options suivantes",
+    "message": "Bonjour je suis SPENTA👋, je suis un ChatBot automatisé et je suis ici pour vous guider! \n Vous pouvez profiter de mes fonctionalités en utilisant l'application messenger de facebook.\nBienvenue sur la Page de Spentana Academy\nEn quoi puis-je vous aider ? \nVeuillez choisir entre les options suivantes",
     "options": [
       { "next": "activite", "label": "🏆 Nos activités" },
       { "next": "lieu",     "label": "📍 Lieu " },
@@ -13,13 +13,23 @@
     "message": "Spentana propose diverses activités. Choisissez ce qui vous intéresse :",
     "cards": [
       {
+        "title": "⚽ Cours de Vacances Foot",
+        "subtitle": "4 à 18 ans • 100.000 Ar/mois",
+        "options": [{ "next": "vacances_foot", "label": "En savoir plus" }]
+      },
+      {
+        "title": "🏀 Cours de Vacances Basket",
+        "subtitle": "12 à 18 ans • 100.000 Ar/mois",
+        "options": [{ "next": "vacances_basket", "label": "En savoir plus" }]
+      },
+      {
         "title": "⚽ Ecole de Foot",
         "subtitle": "4 à 18 ans • 50.000 Ar/mois",
         "options": [{ "next": "foot", "label": "En savoir plus" }]
       },
       {
         "title": "🏀 Ecole de Basket",
-        "subtitle": "10 à 18 ans • 50.000 Ar/mois",
+        "subtitle": "12 à 18 ans • 50.000 Ar/mois",
         "options": [{ "next": "basket", "label": "En savoir plus" }]
       },
       {
@@ -54,7 +64,7 @@
   },
 
   "contact": {
-    "message": "📲 +261 38 06 003 53\n📩 spentanaofficiel@gmail.com",
+    "message": "Vous pouvez contacter les responsables avec les adresses suivants: \n 📲 +261 38 06 003 53\n📩 spentanaofficiel@gmail.com",
     "options": [
       { "next": "accueil", "label": "🏠 Accueil" }
     ]
@@ -69,6 +79,24 @@
 
   "sports-etudes": {
     "message": "🎓 A propos du Sports-Etudes\n\nA pertir de 6 ans • 200.000 Ar/mois\n\n📄 Frais Généraux: \nDroit: 100.000 Ar \nEcolage: 200.000 Ar/mois \nMaillot: 30.000 Ar \n\nDossier à fournir: \n- 4 Photos d'identité\n- 1 Copie ou bulletin de naissance\n- 1 Certificat de résidence\n\n Etudes:\n- Système Educatif Français \n- Enseignement Général \n\n Hébèrgement à Spentana (Factultatif):\n- Loyer: 100.000 Ar \n- Nourriture: 25.000 Ar/jour",
+    "options": [
+      { "next": "activite", "label": "⬅️ Retour" },
+      { "next": "accueil",  "label": "🏠 Accueil" },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "vacances_foot": {
+    "message": "⚽ INSCRIPTION - Cours de Vacances Foot\n\nGarçons et Filles de 4 à 18 ans\n Ecolage: 100.000 Ar/mois\n\n 📍 Catégories: U6 - U8 - U10 - U12 - U14 - U16\n Entrainements: Tous les Lundi - Mardi - Jeudi - Vendredi \n Heure : 09h à 11h  \n\n📄 Dossier: 2 Photos d'identité \n Les inscription se feront sur place au bureau de Spentana Academy",
+    "options": [
+      { "next": "activite", "label": "⬅️ Retour" },
+      { "next": "accueil",  "label": "🏠 Accueil" },
+      { "next": "humain",   "label": "💬 Parler à quelqu'un" }
+    ]
+  },
+
+  "vacances_basket": {
+    "message": "⚽ INSCRIPTION - Cours de Vacances Basket\n\nGarçons et Filles de 12 à 18 ans\n Ecolage: 100.000 Ar/mois\n\n 📍 Catégories: U12 - U14 - U16 - U18\n Entrainements: Tous les Lundi - Mardi - Jeudi - Vendredi \n Heure : 09h à 11h  \n\n📄 Dossier: 2 Photos d'identité \n Les inscription se feront sur place au bureau de Spentana Academy",
     "options": [
       { "next": "activite", "label": "⬅️ Retour" },
       { "next": "accueil",  "label": "🏠 Accueil" },
