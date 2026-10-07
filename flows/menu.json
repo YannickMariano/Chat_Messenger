@@ -1,7 +1,6 @@
-// Arbre des messages automatiques. Fichier .js (et non .json) pour pouvoir commenter des sections.
-module.exports = {
+{
   "accueil": {
-    "message": "Bonjour 👋 Bienvenue sur la page de Spentana Academy !\nJe suis SPENTA. Comment souhaitez-vous être aidé ?\n\n📱 Utilisez l'application Messenger à jour pour profiter de SPENTA et des autres fonctionnalités avancées.",
+    "message": "Bonjour 👋 Bienvenue sur la page de Spentana Academy !\nJe suis SPENTA. Comment souhaitez-vous être aidé ?",
     "options": [
       {
         "next": "spenta",
@@ -18,7 +17,7 @@ module.exports = {
     ]
   },
   "spenta": {
-    "message": "🤖 Je suis SPENTA, l'assistant de Spentana Academy.\n En quoi puis-je vous aider ?\nTapez « menu » à tout moment pour revenir à l'accueil.",
+    "message": "🤖 Je suis SPENTA, l'assistant de Spentana Academy.\nPosez-moi votre question (français, anglais ou malgache).\nTapez « menu » à tout moment pour revenir à l'accueil.",
     "options": [
       {
         "next": "accueil",
@@ -55,7 +54,6 @@ module.exports = {
   "activite": {
     "message": "Spentana propose diverses activités. Choisissez ce qui vous intéresse :",
     "cards": [
-      /* ── COURS DE VACANCES (désactivé jusqu'en juin) : supprimer cette ligne et la ligne FIN pour réactiver ──
       {
         "title": "⚽ Cours de Vacances Foot",
         "subtitle": "4 à 18 ans • 100.000 Ar/mois",
@@ -76,7 +74,6 @@ module.exports = {
           }
         ]
       },
-      ── FIN COURS DE VACANCES ── */
       {
         "title": "⚽ École de Foot",
         "subtitle": "4 à 18 ans • 50.000 Ar/mois",
@@ -152,9 +149,8 @@ module.exports = {
       }
     ]
   },
-  /* ── COURS DE VACANCES (désactivé jusqu'en juin) : supprimer cette ligne et la ligne FIN pour réactiver ──
   "vacances_foot": {
-    "message": "⚽ Cours de Vacances Foot\n\nGarçons et filles de 4 à 18 ans\nÉcolage : 100.000 Ar/mois\nCatégories : U7 - U9 - U11 - U13 - U15-U17 - Foot féminin\n🕐 Lundi, mardi, jeudi, vendredi de 09h à 11h\n\n📄 Dossier : 2 photos d'identité\nInscription sur place au bureau de Spentana Academy.",
+    "message": "⚽ Cours de Vacances Foot\n\nGarçons et filles de 4 à 18 ans\nÉcolage : 100.000 Ar/mois\nCatégories : U6 - U8 - U10 - U12 - U14 - U16\n🕐 Lundi, mardi, jeudi, vendredi de 09h à 11h\n\n📄 Dossier : 2 photos d'identité\nInscription sur place au bureau de Spentana Academy.",
     "options": [
       {
         "next": "activite",
@@ -171,7 +167,7 @@ module.exports = {
     ]
   },
   "vacances_basket": {
-    "message": "🏀 Cours de Vacances Basket\n\nGarçons et filles de 12 à 18 ans\nÉcolage : 100.000 Ar/mois\nCatégories : U10 - U12 - U14 - U16\n🕐 Lundi, mardi, jeudi, vendredi de 09h à 11h\n\n📄 Dossier : 2 photos d'identité\nInscription sur place au bureau de Spentana Academy.",
+    "message": "🏀 Cours de Vacances Basket\n\nGarçons et filles de 12 à 18 ans\nÉcolage : 100.000 Ar/mois\nCatégories : U12 - U14 - U16 - U18\n🕐 Lundi, mardi, jeudi, vendredi de 09h à 11h\n\n📄 Dossier : 2 photos d'identité\nInscription sur place au bureau de Spentana Academy.",
     "options": [
       {
         "next": "activite",
@@ -187,9 +183,8 @@ module.exports = {
       }
     ]
   },
-  ── FIN COURS DE VACANCES ── */
   "foot": {
-    "message": "⚽ École de Foot\n\nGarçons et filles de 4 à 18 ans\nDroit : 30.000 Ar\nÉcolage : 50.000 Ar/mois\n\nCatégories : U7 - U9 - U11 - U13 - U15 - U17 - Foot féminin\nMaillots: 30.000 Ar x 2\n(tenue blanche le mercredi, bleue le samedi)\n\nMercredi: 14h à 17h\nSamedi: 09h à 12h\n\n📄 Dossier :\n- 4 photos d'identité\n- 1 copie ou bulletin de naissance\n- 1 certificat de résidence",
+    "message": "⚽ École de Foot\n\nGarçons et filles de 4 à 18 ans\nDroit : 30.000 Ar\nÉcolage : 50.000 Ar/mois\nCatégories : U7 - U9 - U11 - U13 - U15-U17 - Foot féminin\n👕 2 maillots obligatoires : 30.000 Ar x 2\n(tenue blanche le mercredi, bleue le samedi)\n\n🕐 Mercredi 14h-15h30 / Samedi 09h-10h30 :\nU7-U9, U11 Formation, U13 Formation et Équipe type\n🕐 Mercredi 15h30-17h / Samedi 10h30-12h :\nU11 Équipe type, U15-U17 Formation et Équipe type, Foot féminin\n\n📄 Dossier :\n- 4 photos d'identité\n- 1 copie ou bulletin de naissance\n- 1 certificat de résidence",
     "options": [
       {
         "next": "activite",
@@ -206,7 +201,7 @@ module.exports = {
     ]
   },
   "basket": {
-    "message": "🏀 École de Basket\n\nGarçons et filles de 10 à 18 ans\nDroit : 30.000 Ar\nÉcolage : 50.000 Ar/mois\n\nCatégories : U10 - U12 - U14 - U16\nMaillots : 30.000 Ar x 2\n(tenue blanche le mercredi, bleue le samedi)\n\nMercredi : 14h à 17h\nSamedi : 09h - 12h\n\n📄 Dossier :\n- 4 photos d'identité\n- 1 copie ou bulletin de naissance\n- 1 certificat de résidence",
+    "message": "🏀 École de Basket\n\nGarçons et filles de 10 à 18 ans\nDroit : 30.000 Ar\nÉcolage : 50.000 Ar/mois\nCatégories : U10 - U12 - U14 - U16\n👕 2 maillots obligatoires : 30.000 Ar x 2\n(tenue blanche le mercredi, bleue le samedi)\n\n🕐 Mercredi 14h-15h30 / Samedi 09h-10h30 : U10 et U12\n🕐 Mercredi 15h30-17h / Samedi 10h30-12h : U14 et U16\n\n📄 Dossier :\n- 4 photos d'identité\n- 1 copie ou bulletin de naissance\n- 1 certificat de résidence",
     "options": [
       {
         "next": "activite",
@@ -273,4 +268,4 @@ module.exports = {
       }
     ]
   }
-};
+}
